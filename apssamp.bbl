@@ -1,0 +1,78 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{10}
+
+\bibitem{brown10:q-sims-entropy}
+Katherine~L. Brown, William~J. Munro, and Vivien~M. Kendon.
+\newblock Using quantum computers for quantum simulation.
+\newblock {\em Entropy}, 12(11):2268--2307, 2010.
+
+\bibitem{clader2013quantum}
+BD~Clader, BC~Jacobs, and CR~Sprouse.
+\newblock Quantum algorithm to calculate electromagnetic scattering cross
+  sections.
+\newblock {\em arXiv preprint arXiv:1301.2340}, 2013.
+
+\bibitem{barrel-shifter}
+S.~Gorgin and A.~Kaivani.
+\newblock Reversible barrel shifters.
+\newblock In {\em IEEE/ACS International Conference on Computer Systems and
+  Applications AICCSA '07}, pages 479--483, May 2007.
+
+\bibitem{hallgren2007ptq}
+S.~Hallgren.
+\newblock {Polynomial-time quantum algorithms for Pell's equation and the
+  principal ideal problem}.
+\newblock {\em Journal of the ACM (JACM)}, 54(1), 2007.
+
+\bibitem{harrow:lineqs}
+Aram~W. Harrow, Avinatan Hassidim, and Seth Lloyd.
+\newblock Quantum algorithm for linear systems of equations.
+\newblock {\em Phys. Rev. Lett.}, 103(15):150502, Oct 2009.
+
+\bibitem{efficient-barrel}
+I.~Hashmi and H.M.H. Babu.
+\newblock An efficient design of a reversible barrel shifter.
+\newblock In {\em 23rd International Conference on VLSI Design}, pages 93--98,
+  3-7 Jan 2010.
+\newblock VLSID '10.
+
+\bibitem{jordan12:qa-qft}
+Stephen~P. Jordan, Keith S.~M. Lee, and John Preskill.
+\newblock Quantum algorithms for quantum field theories.
+\newblock {\em Science}, 336:1130, June 2012.
+
+\bibitem{jozsa2003notes}
+Richard Jozsa.
+\newblock Notes on hallgren's efficient quantum algorithm for solving pell's
+  equation.
+\newblock {\em arXiv preprint quant-ph/0302134}, 2003.
+
+\bibitem{kassal11:qchem-sim-review}
+Ivan Kassal, James~D. Whitfield, Alejandro Perdomo-Ortiz, Man-Hong Yung, and
+  Ala\'n Aspuru-Guzik.
+\newblock Simulating chemistry using quantum computers.
+\newblock {\em Annual Review of Physical Chemistry}, 62(1):185--207, 2011.
+
+\bibitem{clifford}
+K.~Matsumoto and K.~Amano.
+\newblock Representation of quantum circuits with clifford and
+  $\frac{\displaystyle \pi}{\displaystyle 8}$ gates.
+
+\bibitem{nachtigal}
+M.~Nachtigal, H.~Thapliyal, and N.~Ranganathan.
+\newblock Design of a reversible floating-point adder architecture.
+\newblock In {\em 11th IEEE International Conference on Nanotechnology},
+  Portland Marriott, Portland, Oregon, USA, August 2011.
+
+\bibitem{quantum-fault-tolerant}
+John Preskill.
+\newblock Fault-tolerant quantum computation.
+\newblock {\em arXiv:quant-ph/9712048v1}, Dec 1997.
+
+\bibitem{fault-tolerant}
+Andrew~M. Steane.
+\newblock Overhead and noise threshold of fault-tolerant quantum error
+  correction.
+\newblock {\em Phys. Rev. A}, 2003.
+
+\end{thebibliography}

@@ -1,0 +1,114 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{10}
+
+\bibitem{fast-synthesis}
+M.~Amy, D.~Maslov, M~Mosca, and M.~Roetteler.
+\newblock A meet-in-the-middle algorithm for fast synthesis of depth-optimal
+  quantum circuits.
+\newblock {\em arXiv:quant-ph/1206.0758v3}, January 2013.
+
+\bibitem{barenco}
+A.~Barenco, C.H. Bennett, R.~Cleve, D.P. DiVincenzo, N.~Margolus, P.~Shor,
+  T.~Sleator, J.A. Smolin, and H.~Weinfurter.
+\newblock Elementary gates for quantum computation.
+\newblock {\em Physical Review A}, 52(5):3457, 1995.
+
+\bibitem{clader2013quantum}
+BD~Clader, BC~Jacobs, and CR~Sprouse.
+\newblock Quantum algorithm to calculate electromagnetic scattering cross
+  sections.
+\newblock {\em arXiv preprint arXiv:1301.2340}, 2013.
+
+\bibitem{cuccaro04:new-quant-ripple}
+Steve~A. Cuccaro, Thomas~G. Draper, Samuel~A. Kutin, and David~Petrie Moulton.
+\newblock A new quantum ripple-carry addition circuit.
+\newblock http://arxiv.org/abs/quant-ph/0410184, October 2004.
+
+\bibitem{fredkin}
+E.~Fredkin and T.~Toffoli.
+\newblock Conservative logic.
+\newblock {\em International Journal of Theoretical Physics}, 21:219–253,
+  1982.
+
+\bibitem{barrel-shifter}
+S.~Gorgin and A.~Kaivani.
+\newblock Reversible barrel shifters.
+\newblock In {\em IEEE/ACS International Conference on Computer Systems and
+  Applications AICCSA '07}, pages 479--483, May 2007.
+
+\bibitem{HNG}
+M.~Haghparast, S.~Jassbi, K.~Navi, and O.~Hashemipour.
+\newblock Design of a novel reversible multiplier circuit using hng gate in
+  nanotechnology.
+\newblock {\em World Applied Sciences Journal}, 3(6):974–978, 2008.
+
+\bibitem{harrow:lineqs}
+Aram~W. Harrow, Avinatan Hassidim, and Seth Lloyd.
+\newblock Quantum algorithm for linear systems of equations.
+\newblock {\em Phys. Rev. Lett.}, 103(15):150502, Oct 2009.
+
+\bibitem{efficient-barrel}
+I.~Hashmi and H.M.H. Babu.
+\newblock An efficient design of a reversible barrel shifter.
+\newblock In {\em 23rd International Conference on VLSI Design}, pages 93--98,
+  3-7 Jan 2010.
+\newblock VLSID '10.
+
+\bibitem{jordan12:qa-qft}
+Stephen~P. Jordan, Keith S.~M. Lee, and John Preskill.
+\newblock Quantum algorithms for quantum field theories.
+\newblock {\em Science}, 336:1130, June 2012.
+
+\bibitem{heat}
+R.~Landauer.
+\newblock Irreversibility and heat generation in the computational process.
+\newblock {\em IBM Journal of Research and Development}, 5:183--191, August
+  1961.
+
+\bibitem{clifford}
+K.~Matsumoto and K.~Amano.
+\newblock Representation of quantum circuits with clifford and
+  $\frac{\displaystyle \pi}{\displaystyle 8}$ gates.
+\newblock {\em arXiv:quant-ph/0806.3834}, Jun 2008.
+
+\bibitem{nachtigal}
+M.~Nachtigal, H.~Thapliyal, and N.~Ranganathan.
+\newblock Design of a reversible floating-point adder architecture.
+\newblock In {\em 11th IEEE International Conference on Nanotechnology},
+  Portland Marriott, Portland, Oregon, USA, August 2011.
+
+\bibitem{peres}
+A.~Peres.
+\newblock Reversible logic and quantum computers.
+\newblock {\em Phys. Rev. A, Gen. Phys}, 32(6):3266–3276, Dec 1985.
+
+\bibitem{quantum-fault-tolerant}
+John Preskill.
+\newblock Fault-tolerant quantum computation.
+\newblock {\em arXiv:quant-ph/9712048v1}, Dec 1997.
+
+\bibitem{fault-tolerant}
+Andrew~M. Steane.
+\newblock Overhead and noise threshold of fault-tolerant quantum error
+  correction.
+\newblock {\em Phys. Rev. A}, 68(4):042322--042322, 2003.
+
+\bibitem{efficient-subtractor}
+Himanshu Thapliyal and Nagarajan Ranganathan.
+\newblock Design of efficient reversible binary subtractors based on a new
+  reversible gate.
+\newblock In {\em IEEE Computer Society Annual Symposium on VLSI}, 2009.
+
+\bibitem{new-subtractor}
+Himanshu Thapliyal and Nagarajan Ranganathan.
+\newblock A new design of the reversible subtractor circuit.
+\newblock In {\em 11th IEEE International Conference on Nanotechnology},
+  Portland Marriott, Portland, Oregon, USA, 15-18 August 2011.
+
+\bibitem{floating-point}
+Wikipedia.
+\newblock Single-precision floating-point format.
+\newblock
+  \url{http://en.wikipedia.org/wiki/Single-precision_floating-point_format}.
+
+\end{thebibliography}

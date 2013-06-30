@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: apssamp.aux
+The style file: plain.bst
+Database file #1: apssampNotes.bib
+Database file #2: apssamp.bib
+Warning--empty journal in clifford
+Warning--empty year in clifford
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            578 strings with 6176 characters,
+and the built_in function-call counts, 3997 in all, are:
+= -- 381
+> -- 185
+< -- 2
++ -- 74
+- -- 60
+* -- 270
+:= -- 685
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 69
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 162
+empty$ -- 314
+format.name$ -- 60
+if$ -- 827
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 69
+num.names$ -- 26
+pop$ -- 72
+preamble$ -- 2
+purify$ -- 56
+quote$ -- 0
+skip$ -- 113
+stack$ -- 0
+substring$ -- 200
+swap$ -- 30
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 2
+while$ -- 36
+width$ -- 15
+write$ -- 140
+(There were 2 warnings)

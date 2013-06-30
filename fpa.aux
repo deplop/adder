@@ -1,0 +1,153 @@
+\relax 
+\citation{nachtigal}
+\citation{heat}
+\citation{harrow:lineqs,clader2013quantum,jordan12:qa-qft}
+\citation{nachtigal}
+\citation{efficient-subtractor}
+\citation{peres}
+\citation{barenco}
+\newlabel{FirstPage}{{}{1}{}{}{}}
+\@writefile{toc}{\contentsline {title}{A Space-Efficient Design for a Reversible Floating Point Adder\\ in Quantum Computing}{1}{}}
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Background}{1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Metrics for Evaluating Quantum Circuits}{1}{}}
+\citation{quantum-fault-tolerant}
+\citation{clifford}
+\citation{fast-synthesis}
+\citation{floating-point}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces TR gate\relax }}{2}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Unitary matrix}}}{2}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Barenco decomposition}}}{2}{}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:TR gate}{{1}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Peres gate\relax }}{2}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Unitary matrix}}}{2}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Barenco decomposition}}}{2}{}}
+\newlabel{fig:Peres gate}{{2}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Decomposition of Fault-Tolerant Fredkin gate.\relax }}{2}{}}
+\newlabel{fig:ft-Fredkin}{{3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}IEEE-754 Floating-Point}{2}{}}
+\citation{barrel-shifter}
+\citation{new-subtractor}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Floating-Point Adder Overview}{3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Overview of the algorithm for a Floating Point Adder.\relax }}{3}{}}
+\newlabel{fig:overview}{{4}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Detailed Design}{3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Reversible Conditional Swap}{3}{}}
+\citation{efficient-barrel}
+\citation{barrel-shifter}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Reversible Alignment}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Reversible Converter}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Reversible Normalization and Rounding}{4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Proposed Conditional Swap. The output register d is the difference of the exponents, which later will be fed into the shift limiter.\relax }}{5}{}}
+\newlabel{fig:proposed_swap}{{5}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Diagram and decomposition of the existing Reversible Half Subtractor (RHS1).\relax }}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Decomposition}}}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Diagram}}}{5}{}}
+\newlabel{fig:proposed RHS1}{{6}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Diagram and decomposition of our proposed Reversible Half Subtractor (RHS2).\relax }}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Decomposition}}}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Diagram}}}{5}{}}
+\newlabel{fig:proposed RHS2}{{7}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Diagram and decomposition of the existing Reversible Full Subtractor (RFS1).\relax }}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Decomposition}}}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Diagram}}}{5}{}}
+\newlabel{fig:proposed RFS1}{{8}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Diagram and decomposition of our proposed Reversible Full Subtractor (RFS2).\relax }}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Decomposition}}}{5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Diagram}}}{5}{}}
+\newlabel{fig:proposed RFS2}{{9}{5}{}{}{}}
+\citation{HNG}
+\citation{fredkin}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Proposed design for Reversible Alignment Unit. The constant value in the top left input is the number 26, the upper limit for our shift distance. $d$ is the exponent's difference.\relax }}{6}{}}
+\newlabel{fig:proposed_align}{{10}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The shift limiter works as a reversible conditional swap.\relax }}{6}{}}
+\newlabel{fig:shift_limiter}{{11}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Proposed design for Reversible $n$-bit Converter.\relax }}{6}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Diagram}}}{6}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Proposed Converter in details}}}{6}{}}
+\newlabel{fig:proposed_converter}{{12}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Comparison with the NTR design}{6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Diagram and our proposed design for RLZC.\relax }}{6}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Decomposition}}}{6}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Diagram}}}{6}{}}
+\newlabel{fig:proposed_RLZC}{{13}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Reversible Conditional Swap}{6}{}}
+\citation{efficient-barrel}
+\citation{efficient-barrel}
+\citation{peres}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Reversible Normalization.\relax }}{7}{}}
+\newlabel{fig:normalization}{{14}{7}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces An example of using RLZCU for 8 input bits.\relax }}{7}{}}
+\newlabel{fig:RLZC_example}{{15}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Reversible Alignment}{7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Reversible Converter}{7}{}}
+\citation{fast-synthesis}
+\citation{fast-synthesis}
+\citation{fast-synthesis}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces NTR Converter vs Proposed Converter.\relax }}{8}{}}
+\newlabel{tab:converter}{{I}{8}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces NTR RLZC vs Proposed RLZC.\relax }}{8}{}}
+\newlabel{tab:RLZC}{{II}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Reversible Normalization and Rounding}{8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Overall Comparison}{8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Fault-Tolerant Design}{8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces NTR Design vs Proposed Design.\relax }}{8}{}}
+\newlabel{tab:total_compare}{{III}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Fault-tolerant architecture for Toffoli gate, Peres gate and TR gate\relax }}{8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Peres gate with $T$-depth 3}}}{8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Toffoli gate with $T$-depth 3}}}{8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {TR gate with $T$-depth 4}}}{8}{}}
+\newlabel{fig:fault-tolerant Toffoli, Peres, TR}{{16}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Fault-Tolerant RLZC circuit\relax }}{8}{}}
+\newlabel{fig:ft-RLZC}{{17}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Controlled-$V$ and Controlled-$V^\dag  $ Gates}{8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Reversible Full Adder}{8}{}}
+\citation{fault-tolerant}
+\citation{cuccaro04:new-quant-ripple}
+\bibdata{fpaNotes,fpa}
+\bibcite{fast-synthesis}{{1}{}{{}}{{}}}
+\bibcite{barenco}{{2}{}{{}}{{}}}
+\bibcite{clader2013quantum}{{3}{}{{}}{{}}}
+\bibcite{cuccaro04:new-quant-ripple}{{4}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Fault-Tolerant architecture for Controlled-$V$ and Controlled-$V^\dag  $ gate\relax }}{9}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Fault-Tolerant Controlled-$V$ gate}}}{9}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Fault-Tolerant Controlled-$V^\dag $ gate}}}{9}{}}
+\newlabel{fig:fault-tolerant controlled-V}{{18}{9}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces $T$-depth of each step in the whole architecture.\relax }}{9}{}}
+\newlabel{tab:T-depth}{{IV}{9}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Reversible Half Subtractor and Reversible Full Subtractor}{9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Metrics for Fault-Tolerant Quantum Circuit}{9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Discussion and Conclusion}{9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {}Acknowledgments.}{9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{9}{}}
+\bibcite{fredkin}{{5}{}{{}}{{}}}
+\bibcite{barrel-shifter}{{6}{}{{}}{{}}}
+\bibcite{HNG}{{7}{}{{}}{{}}}
+\bibcite{harrow:lineqs}{{8}{}{{}}{{}}}
+\bibcite{efficient-barrel}{{9}{}{{}}{{}}}
+\bibcite{jordan12:qa-qft}{{10}{}{{}}{{}}}
+\bibcite{heat}{{11}{}{{}}{{}}}
+\bibcite{clifford}{{12}{}{{}}{{}}}
+\bibcite{nachtigal}{{13}{}{{}}{{}}}
+\bibcite{peres}{{14}{}{{}}{{}}}
+\bibcite{quantum-fault-tolerant}{{15}{}{{}}{{}}}
+\bibcite{fault-tolerant}{{16}{}{{}}{{}}}
+\bibcite{efficient-subtractor}{{17}{}{{}}{{}}}
+\bibcite{new-subtractor}{{18}{}{{}}{{}}}
+\bibcite{floating-point}{{19}{}{{}}{{}}}
+\bibstyle{plain}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Circuit implementing a reversible 1-bit Reversible Full Adder.\relax }}{10}{}}
+\newlabel{fig:fault-tolerant RFA}{{19}{10}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Our proposed designs for Fault-Tolerant Reversible Half Subtractor.\relax }}{10}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {RHS1 gate corresponds to Fig.\nobreakspace {}6{}{}{}\hbox {} with $T$-depth 4}}}{10}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {RHS2 gate corresponds to Fig.\nobreakspace {}7{}{}{}\hbox {} with $T$-depth 4}}}{10}{}}
+\newlabel{fig:tolerant-half-subtractor}{{20}{10}{}{}{}}
+\newlabel{LastBibItem}{{19}{10}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Our proposed designs for Fault-Tolerant Reversible Full Subtractor.\relax }}{11}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {RFS1 gate corresponds to Fig.\nobreakspace {}8{}{}{}\hbox {} with $T$-depth 6}}}{11}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {RFS2 gate corresponds to Fig.\nobreakspace {}9{}{}{}\hbox {} with $T$-depth 6}}}{11}{}}
+\newlabel{fig:tolerant-full-subtractor}{{21}{11}{}{}{}}
+\newlabel{LastPage}{{}{11}{}{}{}}

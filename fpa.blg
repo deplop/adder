@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: fpa.aux
+The style file: plain.bst
+Database file #1: fpaNotes.bib
+Database file #2: fpa.bib
+You've used 19 entries,
+            2118 wiz_defined-function locations,
+            613 strings with 6900 characters,
+and the built_in function-call counts, 6136 in all, are:
+= -- 573
+> -- 302
+< -- 2
++ -- 123
+- -- 100
+* -- 432
+:= -- 1041
+add.period$ -- 58
+call.type$ -- 19
+change.case$ -- 107
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 228
+empty$ -- 492
+format.name$ -- 100
+if$ -- 1274
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 17
+newline$ -- 100
+num.names$ -- 38
+pop$ -- 116
+preamble$ -- 2
+purify$ -- 88
+quote$ -- 0
+skip$ -- 157
+stack$ -- 0
+substring$ -- 336
+swap$ -- 38
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 76
+warning$ -- 0
+while$ -- 50
+width$ -- 21
+write$ -- 206
